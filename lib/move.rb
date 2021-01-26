@@ -13,5 +13,5 @@ end
 
 #move method
 def move (board, index, value="X")
-  board[index] = "X"
+  board[index] = "#{value}"
 end
